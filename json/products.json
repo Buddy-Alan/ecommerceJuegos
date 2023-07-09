@@ -1,0 +1,51 @@
+ [
+    {
+        "id": 1,
+        "name": "Days Gone",
+        "url": "daysGone.jpg",
+        "generoJuego": 1,
+        "price": 11200
+    },
+    {
+        "id": 2,
+        "name": "Resident Evil 4",
+        "url": "residentEvil4.jpg",
+        "generoJuego": 2,
+        "price": 21853
+    },
+    {
+        "id": 3,
+        "name": "God Of Ward",
+        "url": "godOfWar.jpg",
+        "generoJuego": 1,
+        "price": 8853
+    },
+    {
+        "id": 4,
+        "name": "Hollow Knight",
+        "url": "hollowKnight.jpg",
+        "generoJuego": 1,
+        "price": 3853
+    },
+    {
+        "id": 5,
+        "name": "Dark Souls 3",
+        "url": "darkSouls3.jpg",
+        "generoJuego": 1,
+        "price": 12000
+    },
+    {
+        "id": 6,
+        "name": "Elden Ring",
+        "url": "eldenRing.jpg",
+        "generoJuego": 1,
+        "price": 18750
+    },
+    {
+        "id": 7,
+        "name": "Phasmophobia",
+        "url": "phasmophobia.jpg",
+        "generoJuego": 2,
+        "price": 1310
+    }
+]

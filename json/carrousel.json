@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Days Gone",
+        "url": "daysGone.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Resident Evil 4",
+        "url": "residentEvil4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "God Of Ward",
+        "url": "godOfWar.jpg"
+    }
+]
