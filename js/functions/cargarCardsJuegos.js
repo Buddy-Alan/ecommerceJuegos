@@ -12,7 +12,6 @@ const genero = [{
 const urlParams = new URLSearchParams(window.location.search);
 const producto = urlParams.get("producto");
 const generoJuego = urlParams.get("genero");
-console.log(generoJuego)
 const cargarCardsJuegos = (datosParaCards) => {
   let htmlCards = ""
   productoAPonerEnCards = datosParaCards
@@ -20,10 +19,9 @@ const cargarCardsJuegos = (datosParaCards) => {
     productoAPonerEnCards = datosParaCards.filter(juego => juego.name.toLowerCase().includes(producto.toLowerCase()))
   } else if (generoJuego != null && generoJuego != "") {
     productoAPonerEnCards = datosParaCards.filter(juego => juego.generoJuego == generoJuego)
-    console.log(productoAPonerEnCards)
   }
   if (productoAPonerEnCards.length == 0) {
-    htmlCards = "Informacion no encontrada"
+    htmlCards = `<h6>Su busqueda de ${producto} no fue encontro ningun producto</h6>`
   }
   else {
     productoAPonerEnCards.forEach(card => {
